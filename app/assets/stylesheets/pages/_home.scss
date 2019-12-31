@@ -1,3 +1,6 @@
+body{
+  background: white !important;
+}
 .banner{
   height: 100vh;
   background: white;
@@ -9,12 +12,21 @@
     font-size: 3em;
   }
   p{
-    margin: 2% 20% 0 0;
+    margin: 1% 20% 0 0;
     font-size: 1.2em;
   }
 }
 .banner-content{
   margin: 0 15% 10% 5%;
+}
+#new_subscriber{
+  display: flex;
+  align-items: baseline;
+  margin-top: 2%;
+  font-family: "Gelasio, serif"
+}
+#new_subscriber input{
+  border: 1px solid #ced4da;
 }
 @media (max-width: 640px) {
   .banner{
@@ -22,11 +34,14 @@
       font-size: 2.3em;
     }
     p{
-      margin: 0;
+      margin: 4% 0;
       font-size: 1.1em;
     }
   }
   .banner-content{
-    margin: 0 15% 30% 5%;
+    margin: 0 20% 35% 5%;
+  }
+  #new_subscriber{
+    margin-top: 7%;
   }
 }
