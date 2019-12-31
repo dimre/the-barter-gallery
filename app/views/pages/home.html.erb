@@ -2,6 +2,11 @@
   <div class="banner-content">
     <h1>LA PREMIERE GALERIE DE TROC.</h1>
     <p>The Barter Gallery vous permet d'offrir votre troc aux artistes en échange de leurs œuvres. Un séjour à l'étranger, une leçon privée, une œuvre originale ou des travaux à domicile... la seule limite est votre imagination !</p>
+    <p>Inscrivez-vous afin d'obtenir accès aux œuvres disponibles :</p>
+    <%= simple_form_for(Subscriber.new) do |f| %>
+      <%= f.input :email, label: false, placeholder: "Votre addresse e-mail" %>
+      <%= f.button :submit, "S'inscrire" %>
+    <% end %>
   </div>
 </div>
 

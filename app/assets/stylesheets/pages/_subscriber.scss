@@ -1,0 +1,21 @@
+.subscriber-banner{
+  height: 100vh;
+  background: white;
+}
+.subscriber-banner-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 1em;
+  margin: 10% 20%;
+}
+@media (max-width: 640px) {
+  h3{
+    font-size: 1.2em;
+  }
+  .subscriber-banner-content{
+    margin: 15%;
+  }
+}
