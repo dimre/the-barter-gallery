@@ -28,6 +28,30 @@ body{
 #new_subscriber input{
   border: 1px solid #ced4da;
 }
+.footer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0px 20px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.30;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
 @media (max-width: 640px) {
   .banner{
     h1{
