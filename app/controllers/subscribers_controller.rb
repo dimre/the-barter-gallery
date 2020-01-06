@@ -1,6 +1,10 @@
 class SubscribersController < ApplicationController
   skip_before_action :authenticate_user!
 
+  def index
+    @subscribers = Subscriber.all
+  end
+
   def new
     @subscriber = Subscriber.new
   end
