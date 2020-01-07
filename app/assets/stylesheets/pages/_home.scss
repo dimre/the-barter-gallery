@@ -2,7 +2,7 @@ body{
   background: white !important;
 }
 .banner{
-  height: 100vh;
+  height: 83vh;
   background: white;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ body{
   }
 }
 .banner-content{
-  margin: 0 15% 5% 5%;
+  margin: 0 15% 0 5%;
 }
 #new_subscriber{
   display: flex;
@@ -43,13 +43,17 @@ body{
 }
 .footer-links a {
   color: black;
-  opacity: 0.30;
+  opacity: 0.4;
   text-decoration: none;
   font-size: 18px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
   opacity: 1;
+}
+.footer-copyright{
+  color: black;
+  opacity: .6;
 }
 
 @media (max-width: 640px) {
@@ -63,9 +67,12 @@ body{
     }
   }
   .banner-content{
-    margin: 0% 10% 30% 4%;
+    margin: 5% 10% 10% 4%;
   }
   #new_subscriber{
     margin-top: 7%;
+  }
+  .footer {
+    padding: 0 5px 10px 0;
   }
 }
